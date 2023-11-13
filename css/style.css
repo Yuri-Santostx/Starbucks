@@ -1,0 +1,251 @@
+:root{
+    --verde_textos: #1e3932;
+    --links_footer: rgba(0,0,0,.56);
+    --hover: #008248;
+    --textos: rgba(0,0,0,.87);
+    --fundo_sessoes: #d4e9e2;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&family=Kanit:wght@300;400&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--textos);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    color: var(--hover);
+}
+.logo_links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.Logo img{
+    width: 50px;    
+}
+.infromacoes__butoes{
+    display: flex;
+    gap: 10px;
+    align-items: center ;
+}
+.Localizador{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+.botao button{
+    background-color: white;
+    width: 80px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    height: 30px;
+    font-weight: bold;
+}
+.botao button:hover{
+    box-shadow: 0 0 3px;
+    background-color: rgba(128, 128, 128, 0.145);
+}
+.botao_secundario button{
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.historia img{
+    width: 120px;
+}
+.Banner{
+    text-align: center;
+}
+.saiba_mais{
+    background-color:var(--fundo_sessoes);
+    padding: 38px;
+    margin: 30px 26px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.saiba_mais p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 800px;
+}
+.saiba_mais button{
+    width: 150px;
+    background-color: transparent;
+}
+.bloco{
+    display: flex;
+    align-items: center;
+    color: var(--verde_textos);
+    background-color: var(--fundo_sessoes);
+    margin: 0 26px;
+    margin-top: 40px;
+}
+.texto_bloco{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.texto_bloco .titulo{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.texto_bloco .paragrafo{
+    font-size: 20px;
+    padding: 0 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.texto_bloco button{
+    width: 300px;
+    background-color: transparent;
+}
+.paragrafo span{
+    color: #062b23;
+    font-weight: bold;
+}
+.botao .botao_saibamais{
+    width: 100px;
+}
+.imagem1 img{
+    width: 700px;
+}
+.imagem2 img{
+    width:700px;
+    margin-left: 90px;
+}
+.imagem3 img{
+    width: 700px;
+}
+.imagem4 img{
+    width: 700px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 60px 140px;
+}
+.sobre_nos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+.sobre_nos h2{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.sobre_nos a{
+    color: var(--links_footer);
+}
+.sobre_nos a:hover{
+   color: black;
+}
+.carreira ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+.carreira h2{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.carreira a{
+    color: var(--links_footer);
+}
+.carreira a:hover{
+    color: black;
+}
+.impacto_social ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+}
+.impacto_social h2{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.impacto_social a{
+    color: var(--links_footer);
+}
+.impacto_social a:hover{
+    color: var(--textos);
+}
+.Starbucks_rewards ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 13px;
+}
+.Starbucks_rewards h2{
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.Starbucks_rewards a{
+    color: var(--links_footer);
+}
+.Starbucks_rewards a:hover{
+    color: var(--textos);
+}
+hr{
+    margin: 0 90px;
+}
+.icons ul{
+    display: flex;
+    gap: 9px;
+    margin: 40px 90px;
+}
+.icons img:hover{
+    width: 40px;
+}
+.politicas_privacidade {
+    margin: -20px 90px;
+    font-size: 14px;
+}
+.politicas_privacidade a{
+    color: var(--textos);
+}
+.politicas_privacidade a:hover{
+    color: var(--links_footer);
+}
+.direitos{
+    margin: 70px 90px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--links_footer);
+    font-size: 13px;
+}
